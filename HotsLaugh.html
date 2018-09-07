@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="keysrows">
+
+  <div class="keys keys1">
+    <div data-key="81" class="key keyQ">
+      <img src="img/kerrigan.jpg" alt="">    
+      <p class="sound"><span>Q</span>ueen of blades</p>
+    </div>
+    <div data-key="87" class="key keyW">
+      <img src="img/gazlowe.jpg" alt=""> 
+      <p class="sound">Gazlo<span>W</span></p>
+    </div>
+    <div data-key="69" class="key keyE">
+      <img src="img/e.t.c..jpg" alt=""> 
+      <p class="sound"><span>E</span>.T.C.</p>
+    </div>
+    <div data-key="82" class="key keyR">
+      <img src="img/ragnaros.jpg" alt=""> 
+      <p class="sound"><span>R</span>agnaros</p>
+    </div>
+    <div data-key="84" class="key keyT">
+      <img src="img/tracer.jpg" alt=""> 
+      <p class="sound"><span>T</span>racer</p>
+    </div>
+    <div data-key="89" class="key keyY">
+      <img src="img/tyrande.jpg" alt=""> 
+      <p class="sound">T<span>Y</span>yranda</p>
+    </div>
+    <div data-key="85" class="key keyU">
+      <img src="img/uther.jpg" alt=""> 
+      <p class="sound"><span>U</span>ther</p>
+    </div>
+    <div data-key="73" class="key keyI">
+      <img src="img/illidan.jpg" alt=""> 
+      <p class="sound"><span>I</span>llidan</p>
+    </div>
+    <div data-key="79" class="key keyO">
+      <img src="img/chogall.jpg" alt=""> 
+      <p class="sound">Ch<span>O</span>Gal</p>
+    </div>
+    <div data-key="80" class="key keyP">
+      <img src="img/probius.jpg" alt=""> 
+      <p class="sound"><span>P</span>robius</p>
+    </div>
+  </div>
+
+
+
+  <div class="keys keys2">
+    <div data-key="65" class="key keyA"> 
+      <img src="img/alarak.jpg" alt="">    
+      <p class="sound">Alarak</p>
+    </div>
+    <div data-key="83" class="key keyS">
+      <img src="img/sylvanas.jpg" alt=""> 
+      <p class="sound">Sylvanas</p>
+    </div>
+    <div data-key="68" class="key keyD">
+      <img src="img/diablo.jpg" alt=""> 
+      <p class="sound">Diablo</p>
+    </div>
+    <div data-key="70" class="key keyF">
+      <img src="img/falstad.jpg" alt=""> 
+      <p class="sound">Falstad</p>
+    </div>
+    <div data-key="71" class="key keyG">
+      <img src="img/genji.jpg" alt=""> 
+      <p class="sound">Genji</p>
+    </div>
+    <div data-key="72" class="key keyH">
+      <img src="img/hanzo.jpg" alt=""> 
+      <p class="sound">Hanzo</p>
+    </div>
+    <div data-key="74" class="key keyJ">
+      <img src="img/junkrat.jpg" alt=""> 
+      <p class="sound">Junkrat</p>
+    </div>
+    <div data-key="75" class="key keyK">
+      <img src="img/kelthuzad.jpg" alt=""> 
+      <p class="sound">Keltuzat</p>
+    </div>
+    <div data-key="76" class="key keyL">
+      <img src="img/lunara.jpg" alt=""> 
+      <p class="sound">Lunara</p>
+    </div>
+  </div>
+
+
+
+  <div class="keys keys3">
+    <div data-key="90" class="key keyZ">
+      <img src="img/zarya.jpg" alt="">     
+      <p class="sound">Zarya</p>
+    </div>
+    <div data-key="88" class="key keyX">
+      <img src="img/xul.jpg" alt=""> 
+      <p class="sound">Xul</p>
+    </div>
+    <div data-key="67" class="key keyC">
+      <img src="img/chromie.jpg" alt=""> 
+      <p class="sound">Chromie</p>
+    </div>
+    <div data-key="86" class="key keyV">
+      <img src="img/valeera.jpg" alt=""> 
+      <p class="sound">Valira</p>
+    </div>
+    <div data-key="66" class="key keyB">
+      <img src="img/brightwing.jpg" alt=""> 
+      <p class="sound">Braitwing</p>
+    </div>
+    <div data-key="78" class="key keyN">
+      <img src="img/nazeebo.jpg" alt=""> 
+      <p class="sound">Nazibo</p>
+    </div>
+    <div data-key="77" class="key keyM">
+      <img src="img/murky.jpg" alt=""> 
+      <p class="sound">Murky</p>
+    </div>
+    
+  </div>
+
+</div>
+
+  <audio data-key="81" src="sounds/kerrigan.mp3"></audio>
+  <audio data-key="87" src="sounds/gazlow.mp3"></audio>
+  <audio data-key="69" src="sounds/etc.mp3"></audio>
+  <audio data-key="82" src="sounds/rag.mp3"></audio>
+  <audio data-key="84" src="sounds/tracer.mp3"></audio>
+  <audio data-key="89" src="sounds/tyranda.mp3"></audio>
+  <audio data-key="85" src="sounds/uther.mp3"></audio>
+  <audio data-key="73" src="sounds/illi.mp3"></audio>
+  <audio data-key="79" src="sounds/chogal.mp3"></audio>
+  <audio data-key="80" src="sounds/prob.mp3"></audio>
+
+
+
+
+
+  <audio data-key="65" src="sounds/alarak.mp3"></audio>
+  <audio data-key="83" src="sounds/sylv.mp3"></audio>
+  <audio data-key="68" src="sounds/diablo.mp3"></audio>
+  <audio data-key="70" src="sounds/falst.mp3"></audio>
+  <audio data-key="71" src="sounds/genji.mp3"></audio>
+  <audio data-key="72" src="sounds/hanzo.mp3"></audio>
+  <audio data-key="74" src="sounds/junk.mp3"></audio>
+  <audio data-key="75" src="sounds/kelt.mp3"></audio>
+  <audio data-key="76" src="sounds/lunara.mp3"></audio>
+
+
+  <audio data-key="90" src="sounds/zarya.mp3"></audio>
+  <audio data-key="88" src="sounds/xul.mp3"></audio>
+  <audio data-key="67" src="sounds/chromie.mp3"></audio>
+  <audio data-key="86" src="sounds/valira.mp3"></audio>
+  <audio data-key="66" src="sounds/bw.mp3"></audio>
+  <audio data-key="78" src="sounds/naz.mp3"></audio>
+  <audio data-key="77" src="sounds/murky.mp3"></audio>
+ 
+
+
+
+<script>
+  function removeTransition(e) {
+    if (e.propertyName !== 'transform') return;
+    e.target.classList.remove('playing');
+
+  }
+
+  function playSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+
+    if (!audio) return;
+
+    key.classList.add('playing');
+   
+    audio.currentTime = 0;
+    audio.play();
+  }
+
+  const keys = Array.from(document.querySelectorAll('.key'));
+  keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+  window.addEventListener('keydown', playSound);
+</script>
+
+
+</body>
+</html>
